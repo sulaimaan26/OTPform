@@ -1,11 +1,16 @@
 <?php
-
+/*
+SQL CODE
+CREATE TABLE otp (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+number VARCHAR(30) NOT NULL,
+otp VARCHAR(30) NOT NULL)
+*/
 
 
 $servername = "localhost";
-$username = "learnphp";
+$username = "admin";
 $password = "Password@123";
-$dbname = "learnphp";
+$dbname = "trok";
 
 
 // Create connection
